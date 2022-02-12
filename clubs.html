@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Clubs | Bayview StuCo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="stucostyle.css">
+<link rel="stylesheet" href="triangles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='rss.js' defer></script>
+
+</head>
+<body class=theme style="">
+  <nav>
+    <a href="stucowebsite.html"><img src="ombre_logo.png" height=100%></a>
+    <a href="clubs.html" class="active right">Clubs</a>
+    <a href="about.html" class="right">About</a>
+    <a href="calendar.html" class="right">Calendar</a>
+    <a href="map.html" class="right">Map</a>
+    <a href="stucowebsite.html" class="right">Home</a>
+  </nav>
+  
+  <header style="background-image:
+  linear-gradient(to bottom, rgba(34, 2, 0, 0.205) 80%, rgb(0, 0, 0)),
+  url('images/basketball-tryouts.JPG'); background-repeat: no-repeat; background-attachment:scroll; background-size:cover;">
+    <h1 class="glow">Clubs</h1>
+  </header>
+
+  <svg class="divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="var(--redorange)" points="0,100 100,0 100,100"/>
+  </svg>
+  <div class="box" style="border-radius: 0%;">
+    <h2>List of clubs at Bayview</h2>
+      <table id="mytable" style="margin:auto auto; line-height: 150%; font-size: 20px; width: 100%;">
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+    </div>
+  </div>
+  <svg class="divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="var(--redorange)" points="0,0 0,100 100,0"/>
+  </svg>
+
+  <svg class="divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="var(--redorange)" points="0,100 100,0 100,100"/>
+  </svg>
+  <div class="box" style="border-radius: 0%;">
+    <h2>Gallery</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 0 5%;">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/eng-kickoff.JPG" alt="Engineering" width="100%">
+        </div>
+    
+        <div class="item">
+          <img src="images/hfh.JPG" alt="Health For Homeless" width="100%">
+        </div>
+    
+        <div class="item">
+          <img src="images/mun-crisis1.JPG" alt="MUN" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="images/music-fall2019.JPG" alt="Music-Fall2019" width="100%">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <h4>© Fiona Cai - Bayview Student Council</h4>
+  </div>
+  
+
+  <footer>
+    <div style="display: inline; width: 30%; min-width: 110px;">
+      <h2>Find us here!</h2>
+      <a href="mailto:stuco.bayview@gmail.com"><img src="images/email-icon.png"></a>
+      <a href="https://www.instagram.com/bayviewstuco"><img src="images/insta-icon.png"></a>
+      <a href="https://www.youtube.com/channel/UCiCdad-uRRaBZKScErpSaPQ/videos"><img src="images/yt-icon.png"></a>
+    </div>
+    <div style="display: inline; width: 70%;">
+      <h2>Resources</h2>
+      <button  onclick= "window.open('http://ta.yrdsb.ca/','_blank')" class="btn draw-border">
+        <span>TeachAssist</span>
+      </button>
+      <button  onclick= "window.open('https://app.myblueprint.ca/','_blank')" class="btn draw-border">
+        <span>MyBlueprint</span>
+      </button>
+      <button  onclick= "window.open('https://yrdsb.schoolcashonline.com','_blank')" class="btn draw-border">
+        <span>SchoolCashOnline</span>
+      </button>
+      <button  onclick= "window.open('https://yrdsb.edsby.com/','_blank')" class="btn draw-border">
+        <span>Edsby</span>
+      </button>
+    </div>
+  </footer>
+
+</body>
+
+<script>
+  
+  var counter = 0;
+  var delayms = 400;
+  let clubs =["Bayview Mental Health Club","Bayview Yearbook Committee","Bayview Athletic Council","Health For Homeless","Bayview Reach For The Top","Bayview Eco-team ","Bayview Debate","Announcement Team","MEDLIFE","South Asian Culture Club","Empowered Student Partnership","Model UN","Bayview UNICEF","BSS Investment Club","Physics Club","Athletic Council","Psychology Club","Bayview Language Club","Bayview FBLA","A Mile A Miracle","SHSM ","Bayview Workout Club","Bayview Public Speaking","Bayview Music Council","Bayview TEDEd Club","Engineering Club","Best Buddies","Japanese animation club","Bayview Chess Club","Homework club","Bayview Cooking Club ","Bayview Animal Outreach ","Women in Stem ","HOSA ","Child Adoption Program","Bayview Computer Club","Muslim Students Association ","Bayview Math Club","Culture Club","Pep Squad ","Gender and Sexuality Alliance","Bayview Robotics","BSS Press","Bayview Prefects","Digital Media Club","Bayview Entrepreneurs","UFinanceOrg","Bayview Science Tutors ","Bayview Bridge Club","French Club","Bayview Science Olympics","Rubik's Cube Club","Movie Club","Ted-Ed Club"]
+  var maxCounter = clubs.length;
+  function addTableRow() {
+    var newRow = $("<tr style='background-color:rgba(255, 255, 255, 0.25);'><td style='text-align:right; width:50%; border-right: 2vw solid transparent;'>" + clubs[counter] + "</td><td style='text-align:left; width:50%; border-left: 2vw solid transparent;'>"+clubs[counter+1]+"</td></tr>");
+      counter+=2;
+      newRow.fadeIn(2000).delay(delayms).animate({
+        backgroundColor: "rgba(255, 255, 255, 0.1)"
+      }, delayms);
+      $("#mytable tbody").append(newRow);
+
+      if (counter < maxCounter) {
+          setTimeout(addTableRow, delayms);
+      }
+  }
+
+  addTableRow();
+
+  /* jquery.color.js plugin */
+(function(a, e) {
+  var o = "backgroundColor borderBottomColor borderLeftColor borderRightColor borderTopColor color columnRuleColor outlineColor textDecorationColor textEmphasisColor",
+    n = /^([\-+])=\s*(\d+\.?\d*)/,
+    m = [{
+      re: /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,
+      parse: function(a) {
+        return [a[1], a[2], a[3], a[4]]
+      }
+    }, {
+      re: /rgba?\(\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,
+      parse: function(a) {
+        return [a[1] * 2.55, a[2] * 2.55, a[3] * 2.55, a[4]]
+      }
+    }, {
+      re: /#([a-f0-9]{2})([a-f0-9]{2})([a-f0-9]{2})/,
+      parse: function(a) {
+        return [parseInt(a[1], 16), parseInt(a[2], 16), parseInt(a[3], 16)]
+      }
+    }, {
+      re: /#([a-f0-9])([a-f0-9])([a-f0-9])/,
+      parse: function(a) {
+        return [parseInt(a[1] + a[1], 16), parseInt(a[2] + a[2], 16), parseInt(a[3] + a[3], 16)]
+      }
+    }, {
+      re: /hsla?\(\s*(\d+(?:\.\d+)?)\s*,\s*(\d+(?:\.\d+)?)\%\s*,\s*(\d+(?:\.\d+)?)\%\s*(?:,\s*(\d?(?:\.\d+)?)\s*)?\)/,
+      space: "hsla",
+      parse: function(a) {
+        return [a[1], a[2] / 100, a[3] / 100, a[4]]
+      }
+    }],
+    b = a.Color = function(c, d, e, b) {
+      return new a.Color.fn.parse(c, d, e, b)
+    },
+    d = {
+      rgba: {
+        props: {
+          red: {
+            idx: 0,
+            type: "byte"
+          },
+          green: {
+            idx: 1,
+            type: "byte"
+          },
+          blue: {
+            idx: 2,
+            type: "byte"
+          }
+        }
+      },
+      hsla: {
+        props: {
+          hue: {
+            idx: 0,
+            type: "degrees"
+          },
+          saturation: {
+            idx: 1,
+            type: "percent"
+          },
+          lightness: {
+            idx: 2,
+            type: "percent"
+          }
+        }
+      }
+    },
+    k = {
+      "byte": {
+        floor: true,
+        max: 255
+      },
+      percent: {
+        max: 1
+      },
+      degrees: {
+        mod: 360,
+        floor: true
+      }
+    },
+    l = b.support = {},
+    j = a("<p>")[0],
+    f, c = a.each;
+  j.style.cssText = "background-color:rgba(1,1,1,.5)";
+  l.rgba = j.style.backgroundColor.indexOf("rgba") > -1;
+  c(d, function(b, a) {
+    a.cache = "_" + b;
+    a.props.alpha = {
+      idx: 3,
+      type: "percent",
+      def: 1
+    }
+  });
+
+  function g(a, c, d) {
+    var b = k[c.type] || {};
+    if (a == null) return d || !c.def ? null : c.def;
+    a = b.floor ? ~~a : parseFloat(a);
+    return isNaN(a) ? c.def : b.mod ? (a + b.mod) % b.mod : 0 > a ? 0 : b.max < a ? b.max : a
+  }
+
+  function i(g) {
+    var e = b(),
+      h = e._rgba = [];
+    g = g.toLowerCase();
+    c(m, function(j, c) {
+      var b, i = c.re.exec(g),
+        f = i && c.parse(i),
+        a = c.space || "rgba";
+      if (f) {
+        b = e[a](f);
+        e[d[a].cache] = b[d[a].cache];
+        h = e._rgba = b._rgba;
+        return false
+      }
+    });
+    if (h.length) {
+      h.join() === "0,0,0,0" && a.extend(h, f.transparent);
+      return e
+    }
+    return f[g]
+  }
+  b.fn = a.extend(b.prototype, {
+    parse: function(h, k, n, m) {
+      if (h === e) {
+        this._rgba = [null, null, null, null];
+        return this
+      }
+      if (h.jquery || h.nodeType) {
+        h = a(h).css(k);
+        k = e
+      }
+      var j = this,
+        l = a.type(h),
+        o = this._rgba = [];
+      if (k !== e) {
+        h = [h, k, n, m];
+        l = "array"
+      }
+      if (l === "string") return this.parse(i(h) || f._default);
+      if (l === "array") {
+        c(d.rgba.props, function(b, a) {
+          o[a.idx] = g(h[a.idx], a)
+        });
+        return this
+      }
+      if (l === "object") {
+        if (h instanceof b) c(d, function(b, a) {
+          if (h[a.cache]) j[a.cache] = h[a.cache].slice()
+        });
+        else c(d, function(e, d) {
+          var b = d.cache;
+          c(d.props, function(a, c) {
+            if (!j[b] && d.to) {
+              if (a === "alpha" || h[a] == null) return;
+              j[b] = d.to(j._rgba)
+            }
+            j[b][c.idx] = g(h[a], c, true)
+          });
+          if (j[b] && a.inArray(null, j[b].slice(0, 3)) < 0) {
+            j[b][3] = 1;
+            if (d.from) j._rgba = d.from(j[b])
+          }
+        });
+        return this
+      }
+    },
+    is: function(f) {
+      var g = b(f),
+        a = true,
+        e = this;
+      c(d, function(h, b) {
+        var f, d = g[b.cache];
+        if (d) {
+          f = e[b.cache] || b.to && b.to(e._rgba) || [];
+          c(b.props, function(c, b) {
+            if (d[b.idx] != null) {
+              a = d[b.idx] === f[b.idx];
+              return a
+            }
+          })
+        }
+        return a
+      });
+      return a
+    },
+    _space: function() {
+      var a = [],
+        b = this;
+      c(d, function(c, d) {
+        b[d.cache] && a.push(c)
+      });
+      return a.pop()
+    },
+    transition: function(m, l) {
+      var e = b(m),
+        i = e._space(),
+        a = d[i],
+        h = this.alpha() === 0 ? b("transparent") : this,
+        j = h[a.cache] || a.to(h._rgba),
+        f = j.slice();
+      e = e[a.cache];
+      c(a.props, function(i, h) {
+        var d = h.idx,
+          a = j[d],
+          b = e[d],
+          c = k[h.type] || {};
+        if (b === null) return;
+        if (a === null) f[d] = b;
+        else {
+          if (c.mod)
+            if (b - a > c.mod / 2) a += c.mod;
+            else if (a - b > c.mod / 2) a -= c.mod;
+          f[d] = g((b - a) * l + a, h)
+        }
+      });
+      return this[i](f)
+    },
+    blend: function(e) {
+      if (this._rgba[3] === 1) return this;
+      var c = this._rgba.slice(),
+        d = c.pop(),
+        f = b(e)._rgba;
+      return b(a.map(c, function(b, a) {
+        return (1 - d) * f[a] + d * b
+      }))
+    },
+    toRgbaString: function() {
+      var c = "rgba(",
+        b = a.map(this._rgba, function(a, b) {
+          return a == null ? b > 2 ? 1 : 0 : a
+        });
+      if (b[3] === 1) {
+        b.pop();
+        c = "rgb("
+      }
+      return c + b.join() + ")"
+    },
+    toHslaString: function() {
+      var c = "hsla(",
+        b = a.map(this.hsla(), function(a, b) {
+          if (a == null) a = b > 2 ? 1 : 0;
+          if (b && b < 3) a = Math.round(a * 100) + "%";
+          return a
+        });
+      if (b[3] === 1) {
+        b.pop();
+        c = "hsl("
+      }
+      return c + b.join() + ")"
+    },
+    toHexString: function(c) {
+      var b = this._rgba.slice(),
+        d = b.pop();
+      c && b.push(~~(d * 255));
+      return "#" + a.map(b, function(a) {
+        a = (a || 0).toString(16);
+        return a.length === 1 ? "0" + a : a
+      }).join("")
+    },
+    toString: function() {
+      return this._rgba[3] === 0 ? "transparent" : this.toRgbaString()
+    }
+  });
+  b.fn.parse.prototype = b.fn;
+
+  function h(b, c, a) {
+    a = (a + 1) % 1;
+    return a * 6 < 1 ? b + (c - b) * a * 6 : a * 2 < 1 ? c : a * 3 < 2 ? b + (c - b) * (2 / 3 - a) * 6 : b
+  }
+  d.hsla.to = function(a) {
+    if (a[0] == null || a[1] == null || a[2] == null) return [null, null, null, a[3]];
+    var f = a[0] / 255,
+      d = a[1] / 255,
+      g = a[2] / 255,
+      k = a[3],
+      c = Math.max(f, d, g),
+      j = Math.min(f, d, g),
+      b = c - j,
+      i = c + j,
+      l = i * .5,
+      e, h;
+    if (j === c) e = 0;
+    else if (f === c) e = 60 * (d - g) / b + 360;
+    else if (d === c) e = 60 * (g - f) / b + 120;
+    else e = 60 * (f - d) / b + 240;
+    if (b === 0) h = 0;
+    else if (l <= .5) h = b / i;
+    else h = b / (2 - i);
+    return [Math.round(e) % 360, h, l, k == null ? 1 : k]
+  };
+  d.hsla.from = function(a) {
+    if (a[0] == null || a[1] == null || a[2] == null) return [null, null, null, a[3]];
+    var d = a[0] / 360,
+      f = a[1],
+      b = a[2],
+      g = a[3],
+      c = b <= .5 ? b * (1 + f) : b + f - b * f,
+      e = 2 * b - c;
+    return [Math.round(h(e, c, d + 1 / 3) * 255), Math.round(h(e, c, d) * 255), Math.round(h(e, c, d - 1 / 3) * 255), g]
+  };
+  c(d, function(h, f) {
+    var i = f.props,
+      d = f.cache,
+      k = f.to,
+      j = f.from;
+    b.fn[h] = function(h) {
+      if (k && !this[d]) this[d] = k(this._rgba);
+      if (h === e) return this[d].slice();
+      var m, l = a.type(h),
+        n = l === "array" || l === "object" ? h : arguments,
+        f = this[d].slice();
+      c(i, function(c, a) {
+        var b = n[l === "object" ? c : a.idx];
+        if (b == null) b = f[a.idx];
+        f[a.idx] = g(b, a)
+      });
+      if (j) {
+        m = b(j(f));
+        m[d] = f;
+        return m
+      } else return b(f)
+    };
+    c(i, function(d, c) {
+      if (b.fn[d]) return;
+      b.fn[d] = function(b) {
+        var f = a.type(b),
+          j = d === "alpha" ? this._hsla ? "hsla" : "rgba" : h,
+          g = this[j](),
+          i = g[c.idx],
+          e;
+        if (f === "undefined") return i;
+        if (f === "function") {
+          b = b.call(this, i);
+          f = a.type(b)
+        }
+        if (b == null && c.empty) return this;
+        if (f === "string") {
+          e = n.exec(b);
+          if (e) b = i + parseFloat(e[2]) * (e[1] === "+" ? 1 : -1)
+        }
+        g[c.idx] = b;
+        return this[j](g)
+      }
+    })
+  });
+  b.hook = function(e) {
+    var d = e.split(" ");
+    c(d, function(d, c) {
+      a.cssHooks[c] = {
+        "set": function(g, d) {
+          var h, f, e = "";
+          if (d !== "transparent" && (a.type(d) !== "string" || (h = i(d)))) {
+            d = b(h || d);
+            if (!l.rgba && d._rgba[3] !== 1) {
+              f = c === "backgroundColor" ? g.parentNode : g;
+              while ((e === "" || e === "transparent") && f && f.style) try {
+                e = a.css(f, "backgroundColor");
+                f = f.parentNode
+              } catch (j) {}
+              d = d.blend(e && e !== "transparent" ? e : "_default")
+            }
+            d = d.toRgbaString()
+          }
+          try {
+            g.style[c] = d
+          } catch (j) {}
+        }
+      };
+      a.fx.step[c] = function(d) {
+        if (!d.colorInit) {
+          d.start = b(d.elem, c);
+          d.end = b(d.end);
+          d.colorInit = true
+        }
+        a.cssHooks[c].set(d.elem, d.start.transition(d.end, d.pos))
+      }
+    })
+  };
+  b.hook(o);
+  a.cssHooks.borderColor = {
+    expand: function(b) {
+      var a = {};
+      c(["Top", "Right", "Bottom", "Left"], function(d, c) {
+        a["border" + c + "Color"] = b
+      });
+      return a
+    }
+  };
+  f = a.Color.names = {
+    aqua: "#00ffff",
+    black: "#000000",
+    blue: "#0000ff",
+    fuchsia: "#ff00ff",
+    gray: "#808080",
+    green: "#008000",
+    lime: "#00ff00",
+    maroon: "#800000",
+    navy: "#000080",
+    olive: "#808000",
+    purple: "#800080",
+    red: "#ff0000",
+    silver: "#c0c0c0",
+    teal: "#008080",
+    white: "#ffffff",
+    yellow: "#ffff00",
+    transparent: [null, null, null, 0],
+    _default: "#ffffff"
+  }
+})(jQuery)
+
+  </script>
+</html>

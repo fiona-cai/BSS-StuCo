@@ -217,7 +217,7 @@ html{
     padding: 2vh 1vw;
     font-size: 2vh;
     vertical-align: middle;
-    line-height: normal;
+    line-height: 1;
   }
   
   /* Change color on hover */

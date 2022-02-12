@@ -190,12 +190,13 @@ html{
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.849) 60px, rgba(32, 0, 0, 0.747) 40%);;
     position: fixed;
     border-radius: 15px;
-    height: min-content;
+    height: 8vh;
     margin-top: 0.25%;
     width:100%;
     z-index: 2;
     display: inline-block;
     padding: 0.5%;
+    justify-content: center;
   }
   
   /* Style the navigation bar links */
@@ -207,7 +208,7 @@ html{
     border-radius: 15px;
     text-decoration: none;
     font-family: "bebas";
-    height: 6vh;
+    height: 100%;
   }
   
   /* Right-aligned link */
@@ -219,13 +220,6 @@ html{
     font-size: 18px;
     font-weight: lighter;
     line-height: 1;
-  }
-  
-  /* Change color on hover */
-  nav a:hover {
-    background-color: var(--redtrans);
-    color: var(--greyw);
-    text-decoration: none;
   }
 
   nav a.active {

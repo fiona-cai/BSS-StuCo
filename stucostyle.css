@@ -195,7 +195,7 @@ html{
     width:100%;
     z-index: 2;
     display: inline-block;
-    padding: 0.5%;
+    padding: 1vh;
     justify-content: center;
     align-items: center;
   }
@@ -214,8 +214,8 @@ html{
   /* Right-aligned link */
   nav a.right {
     float: right;
-    padding: 18px 1vw;
-    font-size: 18px;
+    padding: 2vh 1vw;
+    font-size: 2vh;
     vertical-align: middle;
     line-height: normal;
   }

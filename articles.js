@@ -49,4 +49,24 @@ var dataset = [
       date: 'Feb 11 2022',
       description:"Hi Everyone! Applications for the BSS Art Club Executive Team are now open! If you are passionate about the arts, have an eye for design and have superior leadership skills then this application is for you! Please submit the application found on your grade Google Classroom by Thursday February 17th. Successful applicants will be contacted for an interview. https://bit.ly/bssartclub",
     },
+    {
+      title: "#GIVEAVAX",
+      date: "Mar 25 2022",
+      description:"Join Bayview UNICEF and Bayview Mental Health Club in #GIVEAVAX, a collaborative effort to deliver and administer COVID-19 vaccines around the world. Register on School Cash Online for $3 and sign up through the google form, <a>tinyurl.com/giveavaxsignup</a>. Starting Monday, challenges will be revealed daily. Participate in a chance to win gift cards and lego sets!",
+    },
+    {
+      title: "Bayview Eco-Team",
+      date: "Mar 25 2022",
+      description:"Interested in helping the environment and also have an eye for art? Come and join the Bayview Eco-Team on Monday March 28th after school at the cafeteria to help decorate some boxes to recycle old and dried out markers! We will have art materials for you to use but you are also welcome to bring your own materials.",
+    },
+    {
+      title: "Family Feud",
+      date: "Mar 28 2022",
+      description:"Bayview ESP's Family Feud is on April 8, where you & friends play to win gift cards! Sign-up by April 4. Instagram @bayviewesp",
+    },
+    {
+      title: "Website Launch Date",
+      date: "Mar 27 2022",
+      description:"All school news will be posted here, daily, from this point onwards.",
+    },
 ];

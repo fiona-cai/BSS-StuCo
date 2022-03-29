@@ -66,7 +66,17 @@ var dataset = [
     },
     {
       title: "Website Launch Date",
-      date: "Mar 27 2022",
+      date: "Mar 29 2022",
       description:"All school news will be posted here, daily, from this point onwards.",
+    },
+    {
+      title: "Astronomy Club Meeting",
+      date: "Mar 29 2022",
+      description:"Excited to learn about Elon Musk's plan of space colonization? Join astronomy club's virtual meeting Tuesday at 4:15pm ",
+    },
+    {
+      title: "Graduation",
+      date: "Mar 29 2022",
+      description:"Some time in April, Guidance is having a graduation assembly. Please fill out this google form as we are giving out free merch. The due date is Friday, April 1st by noon and this is no joke. Here is the link: <a>https://forms.gle/wbPd6iPfVGsExQxG7<a>",
     },
 ];

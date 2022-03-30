@@ -79,4 +79,9 @@ var dataset = [
       date: "Mar 29 2022",
       description:"Some time in April, Guidance is having a graduation assembly. Please fill out this google form as we are giving out free merch. The due date is Friday, April 1st by noon and this is no joke. Here is the link: <a>https://forms.gle/wbPd6iPfVGsExQxG7<a>",
     },
+    {
+      title: "Female Empowerment Club Meeting",
+      date: "Mar 30 2022",
+      description:"Learn about girls' and women's issues at the Female Empowerment Club meeting, today at 4:30pm.  Google Meet code fa5h5jt.",
+    },
 ];

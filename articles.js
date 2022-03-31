@@ -77,7 +77,7 @@ var dataset = [
     {
       title: "Graduation",
       date: "Mar 29 2022",
-      description:"🚨GRADE 12S!🚨 Sometime in April, Guidance will be hosting a graduation assembly. Please fill out <a>https://forms.gle/wbPd6iPfVGsExQxG7<a> as they will be distributing free merch!",
+      description:"🚨GRADE 12S!🚨 Sometime in April, Guidance will be hosting a graduation assembly. Please fill out <a>https://forms.gle/wbPd6iPfVGsExQxG7</a> as they will be distributing free merch!",
     },
     {
       title: "Female Empowerment Club Meeting",
@@ -87,11 +87,11 @@ var dataset = [
     {
       title: "Art Club Kickoff",
       date: "Mar 31 2022",
-      description:"Art club is back @bss.visualarts! Kickoff event on Tues, April 5th in rm 57. Sign up <a>https://tinyurl.com/artclubkickoff<a>",
+      description:"Art club is back @bss.visualarts! Kickoff event on Tues, April 5th in rm 57. Sign up <a>https://tinyurl.com/artclubkickoff</a>",
     },
     {
       title: "Grad Pictures",
       date: "Mar 31 2022",
-      description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals<a> -Code is: bayviewbengals",
+      description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
     },
 ];

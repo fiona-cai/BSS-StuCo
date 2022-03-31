@@ -84,4 +84,14 @@ var dataset = [
       date: "Mar 30 2022",
       description:"Learn about girls' and women's issues at the Female Empowerment Club meeting, today at 4:30pm.  Google Meet code fa5h5jt.",
     },
+    {
+      title: "Art Club Kickoff",
+      date: "Mar 31 2022",
+      description:"Art club is back @bss.visualarts! Kickoff event on Tues, April 5th in rm 57. Sign up <a>https://tinyurl.com/artclubkickoff<a>",
+    },
+    {
+      title: "Grad Pictures",
+      date: "Mar 31 2022",
+      description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals<a> -Code is: bayviewbengals",
+    },
 ];

@@ -94,4 +94,9 @@ var dataset = [
       date: "Mar 31 2022",
       description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
     },
+    {
+      title: "Prom",
+      date: "Apr 1 2022",
+      description:"Grade 12s: Prom is returning!!! The survey will be sent to your GAPPS on Friday and should be completed by Monday, April 4.",
+    },
 ];

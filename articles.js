@@ -99,4 +99,10 @@ var dataset = [
       date: "Apr 1 2022",
       description:"Grade 12s: Prom is returning!!! The survey will be sent to your GAPPS on Friday and should be completed by Monday, April 4.",
     },
+    {
+      title: "Euclid Contest",
+      date: "Apr 1 2022",
+      description:"To all students who registered for the Euclid Math contest on Tuesday April 5th. Contest seating will begin at 7:25 am in the cafeteria.  The contest will begin at 7:30 am and run for two and a half hours.  
+",
+    },
 ];

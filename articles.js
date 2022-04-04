@@ -27,7 +27,7 @@ var dataset = [
     {
       title: 'Anonymous Act of Kindness',
       date: 'Feb 11 2022',
-      description:"Send your love in through the google form found on your grade google classroom: https://docs.google.com/forms/d/e/1FAIpQLSfFs-7b12tyWbv5v6OkRADOdIplTGgRSS0wnAMtCzy0ju2A-g/viewform",
+      description:"Send your love <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFs-7b12tyWbv5v6OkRADOdIplTGgRSS0wnAMtCzy0ju2A-g/viewform">here<a>",
     },
     {
       title: 'Math Tutors',
@@ -47,12 +47,12 @@ var dataset = [
     {
       title: 'Art Club Executive Applications',
       date: 'Feb 11 2022',
-      description:"Hi Everyone! Applications for the BSS Art Club Executive Team are now open! If you are passionate about the arts, have an eye for design and have superior leadership skills then this application is for you! Please submit the application found on your grade Google Classroom by Thursday February 17th. Successful applicants will be contacted for an interview. https://bit.ly/bssartclub",
+      description:"Hi Everyone! Applications for the BSS Art Club Executive Team are now open! If you are passionate about the arts, have an eye for design and have superior leadership skills then this application is for you! Please submit <a href="https://bit.ly/bssartclub">the application</a> by Thursday February 17th. Successful applicants will be contacted for an interview. ",
     },
     {
       title: "#GIVEAVAX",
       date: "Mar 25 2022",
-      description:"Join Bayview UNICEF and Bayview Mental Health Club in #GIVEAVAX, a collaborative effort to deliver and administer COVID-19 vaccines around the world. Register on School Cash Online for $3 and sign up through the google form, <a>tinyurl.com/giveavaxsignup</a>. Starting Monday, challenges will be revealed daily. Participate in a chance to win gift cards and lego sets!",
+      description:"Join Bayview UNICEF and Bayview Mental Health Club in #GIVEAVAX, a collaborative effort to deliver and administer COVID-19 vaccines around the world. Register on School Cash Online for $3 and sign up through the google form, <a href="https://tinyurl.com/giveavaxsignup">tinyurl.com/giveavaxsignup</a>. Starting Monday, challenges will be revealed daily. Participate in a chance to win gift cards and lego sets!",
     },
     {
       title: "Bayview Eco-Team",
@@ -77,7 +77,7 @@ var dataset = [
     {
       title: "Graduation",
       date: "Mar 29 2022",
-      description:"🚨GRADE 12S!🚨 Sometime in April, Guidance will be hosting a graduation assembly. Please fill out <a>https://forms.gle/wbPd6iPfVGsExQxG7</a> as they will be distributing free merch!",
+      description:"🚨GRADE 12S!🚨 Sometime in April, Guidance will be hosting a graduation assembly. Please fill out <a href="https://forms.gle/wbPd6iPfVGsExQxG7">this form</a> as they will be distributing free merch!",
     },
     {
       title: "Female Empowerment Club Meeting",
@@ -87,12 +87,12 @@ var dataset = [
     {
       title: "Art Club Kickoff",
       date: "Mar 31 2022",
-      description:"Art club is back @bss.visualarts! Kickoff event on Tues, April 5th in rm 57. Sign up <a>https://tinyurl.com/artclubkickoff</a>",
+      description:"Art club is back @bss.visualarts! Kickoff event on Tues, April 5th in rm 57. Sign up <a href="https://tinyurl.com/artclubkickoff">here</a>",
     },
     {
       title: "Grad Pictures",
       date: "Mar 31 2022",
-      description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
+      description:"Grade 12 grad photo submit (closes Apr 2) <a href="https://www.hjeshare.com/eShare/home?code=bayviewbengals">here</a> -Code is: bayviewbengals",
     },
     {
       title: "Prom",
@@ -112,16 +112,11 @@ var dataset = [
     {
       title: "Physics Club",
       date: "Apr 4 2022",
-      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a>tinyurl.com/capexam2022</a>",
+      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a href="https://tinyurl.com/capexam2022">tinyurl.com/capexam2022</a>",
     },
     {
       title: "Animal Outreach - Therapy Dogs",
       date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
-    },
-    {
-      title: "Animal Outreach - Therapy Dogs",
-      date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a href="https://tinyurl.com/BSSBAO">tinyurl.com/BSSBAO</a>",
     },
 ];

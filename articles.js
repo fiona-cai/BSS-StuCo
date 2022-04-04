@@ -109,4 +109,19 @@ var dataset = [
       date: "Apr 4 2022",
       description:"Join Bayview Entrepreneurs’ Dragon’s Den pitching competition on Tuesday, April 5 in the cafeteria from 3:30–4:30.",
     },
+    {
+      title: "Physics Club",
+      date: "Apr 4 2022",
+      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a>tinyurl.com/capexam2022</a>",
+    },
+    {
+      title: "Animal Outreach - Therapy Dogs",
+      date: "Apr 4 2022",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
+    },
+    {
+      title: "Animal Outreach - Therapy Dogs",
+      date: "Apr 4 2022",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
+    },
 ];

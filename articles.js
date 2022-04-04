@@ -104,4 +104,9 @@ var dataset = [
       date: "Apr 1 2022",
       description:"To all students who registered for the Euclid Math contest on Tuesday April 5th. Contest seating will begin at 7:25 am in the cafeteria.  The contest will begin at 7:30 am and run for two and a half hours.",
     },
+    {
+      title: "Bayview Entrepreneurs",
+      date: "Apr 4 2022",
+      description:"Join Bayview Entrepreneurs’ Dragon’s Den pitching competition on Tuesday, April 5 in the cafeteria from 3:30–4:30.",
+    },
 ];

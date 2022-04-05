@@ -122,7 +122,7 @@ var dataset = [
     {
       title: "Animal Outreach - Therapy Dogs",
       date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a href="https:/tinyurl.com/BSSBAO">tinyurl.com/BSSBAO</a>",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
     },
     {
       title: "Relay for Life",

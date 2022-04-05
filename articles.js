@@ -124,4 +124,9 @@ var dataset = [
       date: "Apr 4 2022",
       description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
     },
+    {
+      title: "Relay for Life",
+      date: "Apr 5 2022",
+      description:"Relay for Life sign-up is OPEN! Visit our booth at lunch on Wed. and Fri. in the foyer and join oryvwvz for more information!",
+    },
 ];

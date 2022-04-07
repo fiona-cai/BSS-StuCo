@@ -138,21 +138,21 @@ html{
   }
 
   h4 {
-    font-size: 8px;
+    font-size: 10px;
     font-family: "inter";
     line-height: normal;
     color: #ffffff48;
   }
 
   p {
-    font-size: small;
+    font-size: 16px;
     font-family: "inter";
     text-align-last: left;
     line-height: normal;
   }
 
   li {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "inter";
     text-align-last: left;
     line-height: 1.4;
@@ -160,7 +160,7 @@ html{
 
   a{
     font-family: "inter";
-    font-size: small;
+    font-size: 16px;
     line-height: normal;
   }
 

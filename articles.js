@@ -112,12 +112,12 @@ var dataset = [
     {
       title: "Physics Club",
       date: "Apr 4 2022",
-      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a href='tinyurl.com/capexam2022'>tinyurl.com/capexam2022</a>",
+      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a href='https://tinyurl.com/capexam2022'>tinyurl.com/capexam2022</a>",
     },
     {
       title: "Animal Outreach - Therapy Dogs",
       date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a href='tinyurl.com/BSSBAO'>tinyurl.com/BSSBAO</a>",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a href='https://tinyurl.com/BSSBAO'>tinyurl.com/BSSBAO</a>",
     },
     {
       title: "Relay for Life",

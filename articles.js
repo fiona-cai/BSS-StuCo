@@ -92,7 +92,7 @@ var dataset = [
     {
       title: "Grad Pictures",
       date: "Mar 31 2022",
-      description:"Grade 12 grad photo submit (closes Apr 2) - <a>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
+      description:"Grade 12 grad photo submit (closes Apr 2) - <a href='https://www.hjeshare.com/eShare/home?code=bayviewbengals'>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
     },
     {
       title: "Prom",
@@ -122,7 +122,7 @@ var dataset = [
     {
       title: "Animal Outreach - Therapy Dogs",
       date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>https://tinyurl.com/BSSBAO</a>",
     },
     {
       title: "Relay for Life",

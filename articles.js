@@ -92,7 +92,7 @@ var dataset = [
     {
       title: "Grad Pictures",
       date: "Mar 31 2022",
-      description:"Grade 12 grad photo submit (closes Apr 2) - <a href='https://www.hjeshare.com/eShare/home?code=bayviewbengals'>https://www.hjeshare.com/eShare/home?code=bayviewbengals</a> -Code is: bayviewbengals",
+      description:"Grade 12 grad photo submit (closes Apr 2) - <a href='https://www.hjeshare.com/eShare/home?code=bayviewbengals'>here</a><br>Code is: bayviewbengals",
     },
     {
       title: "Prom",
@@ -112,21 +112,36 @@ var dataset = [
     {
       title: "Physics Club",
       date: "Apr 4 2022",
-      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a>tinyurl.com/capexam2022</a>",
+      description:"Calling all physicists! The Canadian Association of Physicists Prize Exam, or CAP, will be taking place this Wednesday, April 6th. Visit <a href='tinyurl.com/capexam2022'>tinyurl.com/capexam2022</a>",
     },
     {
       title: "Animal Outreach - Therapy Dogs",
       date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>tinyurl.com/BSSBAO</a>",
-    },
-    {
-      title: "Animal Outreach - Therapy Dogs",
-      date: "Apr 4 2022",
-      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a>https://tinyurl.com/BSSBAO</a>",
+      description:"Bayview Animal Outreach is planning an upcoming therapy dogs event! Fill out our google form using the link: <a href='tinyurl.com/BSSBAO'>tinyurl.com/BSSBAO</a>",
     },
     {
       title: "Relay for Life",
       date: "Apr 5 2022",
       description:"Relay for Life sign-up is OPEN! Visit our booth at lunch on Wed. and Fri. in the foyer and join oryvwvz for more information!",
+    },
+    {
+      title: "Rubrik's Cube Club",
+      date: "Apr 6 2022",
+      description:"Come join Rubik’s Cube Club’s 3x3 competition on Wednesday in room 217 from  3:30-4:15! The top three will win a gift card of their choice!",
+    },
+    {
+      title: "Fryer/Galois/Hypatia",
+      date: "Apr 8 2022",
+      description:"To all students who registered for the Fryer, Galois, or Hypatia Math contest on Tuesday April 12th. The contest will begin at 8:50 am and run for one hour and fifteen minutes.",
+    },
+    {
+      title: "Guidance",
+      date: "Apr 11 2022",
+      description:"Guidance pres for Gr10&11 applying to UK & US on Wednesday @4pm. Link posted on Wednesday.",
+    },
+    {
+      title: "Varsity Baseball",
+      date: "Apr 11 2022",
+      description:"Interested in playing for the Bayview Varsity Baseball Team this year? Information meeting today after school in room 54.",
     },
 ];

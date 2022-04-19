@@ -144,4 +144,40 @@ var dataset = [
       date: "Apr 11 2022",
       description:"Interested in playing for the Bayview Varsity Baseball Team this year? Information meeting today after school in room 54.",
     },
+    {
+      title: "French Club",
+      date: "Apr 12 2022",
+      description:"The French Club has released a sign-up form for students who would like to be tutored or need support from time to time. The google sign-up form is found in your respective google forums.",
+    },
+    {
+      title: "Ultimate Frisbee",
+      date: "Apr 13 2022",
+      description:"Varsity co-ed ultimate tryouts begin this Thursday at lunch time in the large gym.  You must bring a consent form to play (found with class code xr3zbuf).",
+    },
+    {
+      title: "MH Club",
+      date: "Apr 13 2022",
+      description:"Visit MH Club’s Spotify board outside the caf! Write down a song and we’ll add it to the “Made for Bayview” playlist.",
+    },
+    {
+      title: "Volleyball Intramurals",
+      date: "Apr 14 2022",
+      description:"Bayview's Athletic Council's Volleyball Intramurals begins check our Instagram bio @bssathco for more info",
+    },
+    {
+      title: "Bayview Music Department",
+      date: "Apr 14 2022",
+      description:"Next Wed. April 20th 7pm in the large gym, Bayview will be holding its first in person concert since the start of covid!",
+    },
+    {
+      title: "Relay For Life",
+      date: "Apr 14 2022",
+      description:"Relay For Life is hosting its first fundraiser! All of next week you can buy a lollipop for yourself, or buy several and spread the word to your friends with a sweet candy gift!",
+    },
+    {
+      title: "Math Club",
+      date: "Apr 14 2022",
+      description:"Well done to everyone who wrote the Euclid contest! Math Club will be taking up the problems today after school in rooms G15 and G16.",
+    },
+  
 ];

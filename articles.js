@@ -179,5 +179,94 @@ var dataset = [
       date: "Apr 14 2022",
       description:"Well done to everyone who wrote the Euclid contest! Math Club will be taking up the problems today after school in rooms G15 and G16.",
     },
-  
+    {
+      title: "Guidance",
+      date: "Apr 19 2022",
+      description:"Summer school registration opens today. Register using My Pathway Planner. Please read the Guidance Message for details.",
+    },
+    {
+      title: "ELD Class",
+      date: "Apr 19 2022",
+      description:"Many Yazidis around the world are celebrating the New Year. This holiday is known as Sersal. Happy New Year Bayview!",
+    },
+    {
+      title: "Physics Club",
+      date: "Apr 20 2022",
+      description:"Bayview Physics Club will be hosting both the Sir Issac Newton Physics Exam and the OAPT Physics Contest this May. Come to today's Physics Club meeting in room 72 at 3:30 PM for more info.",
+    },
+    {
+      title: "Bully Prevention Initiative",
+      date: "Apr 20 2022",
+      description:"<a href='https://docs.google.com/forms/d/e/1FAIpQLSdV5YU8rUBnsAMHFDuT3zHLJ759h-ftcBKjzuf8cqpgTmdOJw/viewform'>Application form</a>",
+    },
+    {
+      title: "Varsity Baseball Team",
+      date: "Apr 22 2022",
+      description:"Interested in playing baseball for Bayview this year?  Tryouts will take place on Tuesday April 26th at 3:30 in the small gym.  Please bring your own glove!",
+    },
+    {
+      title: "Guidance",
+      date: "Apr 25 2022",
+      description:"Gr10 SHSM mandatory meeting this Wednesday. Gr11 SHSM it is optional. Details in Guidance Message.",
+    },
+    {
+      title: "Relay for Life",
+      date: "Apr 25 2022",
+      description:"Relay for Life is having our kickoff event this Tuesday, April 26 in the large gym after school from 3:20pm - 4:30pm.",
+    },
+    {
+      title: "Chemistry Contests",
+      date: "Apr 25 2022",
+      description:"The Avogadro Chemistry Contest (Grade 11) will take place on Thursday May 19th. Signup deadline is this Wednesday (April 27th) and is on SchoolCash Online. For more details about each contest check the Chemistry Contest google classroom (2cg5d7p).",
+    },
+    {
+      title: "Mountain Biking Team",
+      date: "Apr 25 2022",
+      description:"Please join the Bayview Mountain Biking classroom - the class code is atgpvtq.  Complete consent and check requirements",
+    },
+    {
+      title: "Track Team",
+      date: "Apr 25 2022",
+      description:"Track meeting Tuesday April 26th at 11:40 in the Small Gym",
+    },
+    {
+      title: "Track Team",
+      date: "Apr 25 2022",
+      description:"Track meeting Tuesday April 26th at 11:40 in the Small Gym",
+    },
+    {
+      title: "Guidance-T-shirts",
+      date: "Apr 27 2022",
+      description:"Grads the t-shirts are in. Those who completed the google form come today to guidance during lunch & after school to pick up.",
+    },
+    {
+      title: "Guidance-SHSM",
+      date: "Apr 27 2022",
+      description:"Calling all students interested in joining SHSM! A quick reminder that we will be having our info meeting at lunch, 12 PM TODAY in room 201. The link for online students will be posted on the Google Classroom.",
+    },
+    {
+      title: "Female Empowerment",
+      date: "Apr 27 2022",
+      description:"Learn about girls' and women's issues at the Female Empowerment Club meeting, today at 4:30pm.  Google Meet code fa5h5jt.",
+    },
+    {
+      title: "Guidance",
+      date: "Apr 28 2022",
+      description:"Gr10 & 11 students interested in applying to the US and UK and missed the first meeting there is a virtual meeting today at lunch. Link posted in the google classroom. This is mandatory any grade 11's applying.",
+    },
+    {
+      title: "Varsity Baseball Team",
+      date: "Apr 28 2022",
+      description:"The final tryout for this year's Varsity Baseball Team will take place in the small gym at 3:30 today. ",
+    },
+    {
+      title: "Eco Team",
+      date: "Apr 28 2022",
+      description:"Join us for our community garbage clean up! Meet us in front of the cafeteria Friday after school with your signed permission form <a href='http://bit.ly/garbagepickupform'>bit.ly/garbagepickupform</a>",
+    },
+    {
+      title: "Varsity Baseball Team",
+      date: "Apr 29 2022",
+      description:"The list for this year’s Varsity Baseball Team has been posted outside of the Phys Ed office.  Players are asked to attend a MANDATORY team meeting after school today in room 54.</a>",
+    },
 ];

@@ -269,4 +269,44 @@ var dataset = [
       date: "Apr 29 2022",
       description:"The list for this year’s Varsity Baseball Team has been posted outside of the Phys Ed office.  Players are asked to attend a MANDATORY team meeting after school today in room 54.</a>",
     },
+    {
+      title: "Student Council Elections",
+      date: "May 2 2022",
+      description:"It’s that time of the year again, Bengals! Bayview Student Council Elections for the 2022-2023 school year are coming up! If you're interested in running in the upcoming elections and want to learn more about the roles, be sure to attend the info session meeting on Tuesday, May 3rd after school in the Cafeteria.",
+    },
+    {
+      title: "Mental Health Club",
+      date: "May 2 2022",
+      description:"This week is Mental Health week. Today the MH Club will be hosting a scavenger hunt afterschool in the front foyer.",
+    },
+    {
+      title: "Athco",
+      date: "May 2 2022",
+      description:"Get volunteer hours by helping with the Bayview Co-Ed volleyball Tournament. Sign up through BSS Athco insta or grade forum.",
+    },
+    {
+      title: "Admin",
+      date: "May 3 2022",
+      description:"In an effort to be good stewards of the environment, please remember to bring a reusable water bottle to school where you can if you prefer to use the fill option on the water fountains.",
+    },
+    {
+      title: "Mental Health Club",
+      date: "May 3 2022",
+      description:"Come enjoy board games and colouring at lunch today outside the caf from the Mental Health Club.",
+    },
+    {
+      title: "Math Club",
+      date: "May 4 2022",
+      description:"Bayview Math Club's jeopardy-themed competition has been rescheduled to this Thursday after school in rooms G15 and G16. Join us for a chance to win some bubble tea or gift cards!",
+    },
+    {
+      title: "Mental Health Club",
+      date: "May 4 2022",
+      description:"The BMHC will have painting rocks in the courtyard at lunch.  Come enjoy!",
+    },
+    {
+      title: "Psychology Club",
+      date: "May 4 2022",
+      description:"Bayview ESP's Family Feud Event has been rescheduled for May 20th! Sign-ups are open now and will close on May 16th.",
+    },
 ];

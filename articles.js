@@ -309,4 +309,29 @@ var dataset = [
       date: "May 4 2022",
       description:"Bayview ESP's Family Feud Event has been rescheduled for May 20th! Sign-ups are open now and will close on May 16th.",
     },
+    {
+      title: "Bayview's 1:1 Fundraiser",
+      date: "May 9 2022",
+      description:"Bubble tea sales for Bayview's 1:1 fundraiser will occur on Wed, May 11th and Fri, May 13th in the cafeteria (front foyer if the cafeteria is closed).",
+    },
+    {
+      title: "Elections",
+      date: "May 11 2022",
+      description:"This is a reminder that all Student Council Applicants must submit their written application by May 13 at 11:59 pm.",
+    },
+    {
+      title: "French Club",
+      date: "May 11 2022",
+      description:"Hey Bayview! The French Club is hosting a fun social event next Monday, on May 16th at 3:30PM - 5PM.",
+    },
+    {
+      title: "Bayview Music Department",
+      date: "May 11 2022",
+      description:"Finale Showcase will be May 26th in the large gym at 7pm. Tickets are on SCO. Bring your receipt to room 71 for your ticket.",
+    },
+    {
+      title: "Free Freezies",
+      date: "May 11 2022",
+      description:"Make sure to visit the cafe on Friday at lunch to participate in community arts/crafts and receive a free freezie!",
+    },
 ];

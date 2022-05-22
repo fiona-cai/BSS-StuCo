@@ -334,4 +334,49 @@ var dataset = [
       date: "May 11 2022",
       description:"Make sure to visit the cafe on Friday at lunch to participate in community arts/crafts and receive a free freezie!",
     },
+    {
+      title: "French Club",
+      date: "May 13 2022",
+      description:"Hey Bayview! The French Club is hosting a fun social event next Monday, on May 16th at 3:30PM.",
+    },
+    {
+      title: "Bayview Mental Health Club",
+      date: "May 16 2022",
+      description:"BMHC executive positions for next year are open.  Visit our instagram page for more info.",
+    },
+    {
+      title: "Relay for Life",
+      date: "May 16 2022",
+      description:"Some of our Relay for Life teams are fundraising by selling products and services this week at lunch outside the main school doors. Stop by and consider buying items to support the Canadian Cancer Society.",
+    },
+    {
+      title: "Bayview Animal Outreach",
+      date: "May 17 2022",
+      description:"Come learn more about the axolotl and other endangered species on Tuesday, May 24 during lunch in the cafeteria where Bayview Animal Outreach will be hosting our Endangered Animals event.",
+    },
+    {
+      title: "Throwback Games",
+      date: "May 18 2022",
+      description:"Come to the field at Friday's lunch for free freezies and throwback elementary games!",
+    },
+    {
+      title: "Admin",
+      date: "May 18 2022",
+      description:"This is a friendly reminder the bubble tea will be sold at the front of the school starting today again to support our 1:1 initiative. ",
+    },
+    {
+      title: "Mental Health Club",
+      date: "May 18 2022",
+      description:"Applications for our executive positions are open.  Please see our Instagram for more details.",
+    },
+    {
+      title: "Robotics",
+      date: "May 19 2022",
+      description:"FTC robotics team!! But there’s just one catch: we need YOUR help to get this team going. Friday May 20 room 226",
+    },
+    {
+      title: "Throwback Games",
+      date: "May 20 2022",
+      description:"Come to the field at today @ lunch for free freezies and throwback elementary games!",
+    },
 ];

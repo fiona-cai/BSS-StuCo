@@ -208,7 +208,7 @@ html{
   /* Style the top navigation bar */
   nav {
     overflow: visible;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.849) 60px, rgba(32, 0, 0, 0.747) 40%);;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.849) 60px, rgba(32, 0, 0, 0.747) 40%);
     position: fixed;
     border-radius: 15px;
     height: 60px;

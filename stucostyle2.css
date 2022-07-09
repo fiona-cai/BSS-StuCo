@@ -114,7 +114,7 @@ html{
 
   header img{
     position: absolute;
-    bottom: calc(100vh - 65vw);
+    bottom: calc(100vh - 75vw);
     right: 0;
     width: 100%;
     border-radius: 0%;

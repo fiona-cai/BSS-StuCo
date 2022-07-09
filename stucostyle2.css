@@ -108,13 +108,13 @@ html{
     text-align: center;
     color: white;
     width: 100%;
-    height: 54vw;
+    height: 64vw;
     display: block;
   }
 
   header img{
     position: absolute;
-    bottom: calc(100vh - 54vw);
+    bottom: calc(100vh - 64vw);
     right: 0;
     width: 100%;
     border-radius: 0%;
